@@ -1,8 +1,10 @@
 import React from 'react'
 import { Header, Categories } from './components';
-import { Route } from 'react-router-dom';
+// import { Route } from 'react-router-dom';
 
 function App() {
+  
+
   return (
     <div className="wrapper">
       <Header />
