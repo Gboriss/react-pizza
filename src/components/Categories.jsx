@@ -8,8 +8,10 @@ function Categories({ items, onClick }) {
                 <li 
                     className={activeItem === null ? "active" : ''}
                     onClick={() => setActiveItem(null)}
-                >Все</li>
-                {items.map((name, index) => 
+                >
+                    Все
+                </li>
+                {items && items.map((name, index) => (
                     <li 
                         className={activeItem === index ? "active" : ''}
                         onClick={() => setActiveItem(index)}
@@ -17,7 +19,7 @@ function Categories({ items, onClick }) {
                     >
                         {name}
                     </li>
-                )}
+                ))}
             </ul>
         </div>
     );
