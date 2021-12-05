@@ -57,7 +57,7 @@ function PizzaBlock({ name, imageUrl, price, types, sizes }) {
                 <div className="pizza-block__bottom">
                     <div className="pizza-block__price">от { price } Р</div>
                     <div className="button button--outline button-add">
-                     купить
+                        купить
                     </div>
                 </div>
             </div>
